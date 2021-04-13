@@ -1,0 +1,100 @@
+/* ? General ? */
+body.dark {
+  background-color: var(--bg-dark-mode);
+  color: var(--text-white);
+}
+
+/* ? Navigation ? */
+body.dark .navbar {
+  background-color: var(--bg-dark-mode);
+}
+
+body.dark .navbar__logo {
+  color: var(--text-white);
+}
+
+body.dark .navbar__toggle .bar {
+  background-color: var(--text-white);
+}
+
+body.dark .navbar__menu {
+  background-color: var(--bg-dark-mode);
+}
+
+body.dark .navbar__link {
+  color: var(--text-white);
+}
+
+/* ? Section Showcase ? */
+body.dark .showcase__recommend-label {
+  background-color: var(--bg-dark-mode-light);
+}
+
+body.dark .label-text .online-status {
+  background-color: var(--bg-dark-mode-light);
+}
+
+body.dark .label-text .online-status::before {
+  background-color: #FAD076;
+}
+
+/* ? Section Recommend ? */
+body.dark .recommend {
+  background-color: #2f3549;
+}
+
+body.dark .recommend__specialist-box {
+  background-color: var(--bg-dark-mode);
+}
+
+/* ? Section Search ? */
+body.dark .search__group {
+  background-color: var(--bg-dark-mode);
+}
+
+body.dark .search__group i {
+  color: var(--text-white);
+}
+
+body.dark .search__group input {
+  background-color: var(--bg-dark-mode);
+  color: var(--text-white);
+}
+
+/* ? Section Services ? */
+body.dark .features .feature {
+  background-color: var(--bg-dark-mode-light);
+  /* background-color: rgb(250, 208, 118, 1); */
+  /* color: var(--bg-dark-mode); */
+}
+
+/* ? Section Contact ? */
+body.dark .contact {
+  background-color: var(--bg-dark-mode-light);
+}
+
+body.dark .contact__form {
+  background-color: var(--bg-dark-mode);
+}
+
+body.dark .contact__form input,
+body.dark .contact__form textarea {
+  background-color: var(--bg-dark-mode-light);
+  border-color: var(--bg-dark-mode-light);
+  color: var(--text-white);
+}
+
+body.dark .contact__form input:focus,
+body.dark .contact__form textarea:focus {
+  border-color: var(--text-secondary);
+}
+
+body.dark .contact__send-confirm-box {
+  /* Style Here */
+}
+
+/* ? Footer ? */
+body.dark .footer__bottom {
+  color: var(--text-white);
+  background-color: var(--bg-dark-mode);
+}
